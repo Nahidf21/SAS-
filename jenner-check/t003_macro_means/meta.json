@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_macro_means",
+  "source_file": "A 1.2 Macro.sas",
+  "source_blob_sha": "004261325727d5354c0ca33373190c972e26beed",
+  "source_commit": "f70357100ea28c36b0273390aa985870e6433043",
+  "notes": "Two of the file's macro definitions: score_mean(out_mean=) computing means via PROC MEANS/output (using the file's later, corrected definition with an explicit mean=MeanScore1 MeanScore2 MeanScore3 rename list -- the file also has an earlier draft of the same macro without that rename list, which errors since the KEEP= references variables PROC MEANS never created; that earlier draft was not used here) and score_mean1(out_mean1=) called once per score variable. Original read score_data.xlsx via PROC IMPORT; replaced with an 8-row inline sample."
+}

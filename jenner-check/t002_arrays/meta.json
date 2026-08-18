@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_arrays",
+  "source_file": "07.1 Array.sas",
+  "source_blob_sha": "5a9401a8667cd337a9cbbaa87e5c6945a7c1adaa",
+  "source_commit": "f70357100ea28c36b0273390aa985870e6433043",
+  "notes": "ARRAY-based sentinel cleanup (999 -> missing, 69 -> 699) and a second ARRAY computing per-subject deltas from the mean. Original read score_data_miss999.xlsx via PROC IMPORT; replaced with an 8-row inline sample carrying 999 sentinels."
+}

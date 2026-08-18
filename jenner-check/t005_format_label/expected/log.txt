@@ -1,0 +1,37 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA ScoreData0
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 8 rows from DATALINES.
+NOTE: Wrote ScoreData0 (8 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA ScoreData1
+
+
+NOTE: Read 8 rows from Scoredata0.
+NOTE: Wrote ScoreData1 (8 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=ScoreData1
+
+NOTE: PROC PRINT completed: 8 observations printed, 5 variables
+NOTE: PROC PRINT data=ScoreData0
+
+NOTE: PROC PRINT completed: 8 observations printed, 5 variables
+NOTE: PROC MEANS
+NOTE: Output dataset Gender_sum has 3 observations and 6 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC PRINT data=Gender_sum
+
+NOTE: PROC PRINT completed: 3 observations printed, 4 variables
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT $gender defined (3 ranges).
+NOTE: FORMAT Score defined (5 ranges).
+NOTE: PROC PRINT data=ScoreData0
+
+NOTE: PROC PRINT completed: 8 observations printed, 5 variables

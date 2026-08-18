@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_ifthen_grading",
+  "source_file": "02 Work With Data.sas",
+  "source_blob_sha": "981a7e31be04a550b778abb04550d74a93bb313e",
+  "source_commit": "f70357100ea28c36b0273390aa985870e6433043",
+  "notes": "IF/THEN grading (A/B/C/Pass), LENGTH-based recode, and subsetting IF. Original read score_data.xlsx via PROC IMPORT; replaced with an 8-row inline sample matching the Name/Gender/Score1-3 shape used throughout the repo."
+}

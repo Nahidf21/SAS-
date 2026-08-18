@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_format_label",
+  "source_file": "03 Create labels and formate.sas",
+  "source_blob_sha": "ac0529b7596d8fdfed002bc971e3d6e5f2befac4",
+  "source_commit": "f70357100ea28c36b0273390aa985870e6433043",
+  "notes": "LABEL statement (plain and SPLIT=), PROC MEANS with CLASS/OUTPUT, and a user-defined PROC FORMAT (character and numeric ranges) applied via PROC PRINT FORMAT=. Original read score_data.xlsx via PROC IMPORT and wrote a permanent format catalog to a hardcoded local path; replaced the import with an inline sample and kept the format definition WORK-library scoped (dropped the permanent libname section, which pointed at the author's local disk). One small fix applied to the SPLIT= label block: the source wrote `Label Score1 = \"Math\" * \"Score\"` (two literals joined by a bare *), which is invalid SAS 9.4 -- the LABEL statement's right-hand side must be a single quoted string, and SPLIT=\"*\" expects the split character embedded inside that one string. Confirmed via sas-expert (verdict: FIX, not a Jenner bug; SAS 9.4 LABEL/PROC PRINT SPLIT= docs) before adjusting to the idiomatic `\"Math*Score\"` form; the rest of the script is unmodified."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_merge",
+  "source_file": "8.1 Merging.sas",
+  "source_blob_sha": "802dde01468c5817cc873ca068939a3eeb2021f0",
+  "source_commit": "f70357100ea28c36b0273390aa985870e6433043",
+  "notes": "Interleave (SET ... BY), match-merge (MERGE ... BY), and an IN=/unmatched-observations merge. Original read two xlsx files via PROC IMPORT; replaced with two small inline datasets sharing a stu_id key."
+}

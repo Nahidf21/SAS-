@@ -1,0 +1,40 @@
+                                                   Original Wide Data
+
+  Obs  stu_id    Name  Gender  Score1  Score2
+    1       1  Nahid   m           92      88
+    2       2  Marzia  f           78      82
+    3       3  Abid    m           65      70
+    4       4  Sadia   f           88      91
+
+                                                      Long Format
+
+  Obs  STU_ID  _NAME_  COL1
+    1       1  Score1    92
+    2       1  Score2    88
+    3       2  Score1    78
+    4       2  Score2    82
+    5       3  Score1    65
+    6       3  Score2    70
+    7       4  Score1    88
+    8       4  Score2    91
+
+                                            Long Format With Renamed Columns
+
+  Obs  STUDENT_ID    NAME  GENDER  SCORE_TYPES  SCORE
+    1           1  Nahid   m       Score1          92
+    2           1  Nahid   m       Score2          88
+    3           2  Marzia  f       Score1          78
+    4           2  Marzia  f       Score2          82
+    5           3  Abid    m       Score1          65
+    6           3  Abid    m       Score2          70
+    7           4  Sadia   f       Score1          88
+    8           4  Sadia   f       Score2          91
+
+                                               Re-transposed Back To Wide
+
+  Obs  STUDENT_ID    NAME  GENDER  NEWSCORE1  NEWSCORE2
+    1           1  Nahid   m              92         88
+    2           2  Marzia  f              78         82
+    3           3  Abid    m              65         70
+    4           4  Sadia   f              88         91
+
