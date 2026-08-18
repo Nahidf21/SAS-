@@ -1,0 +1,24 @@
+                                     999 Sentinel Replaced With 699 Where It Was 69
+
+  Obs    Name  Gender  Score1  Score2  Score3  i
+    1  Nahid   m           92      88     999  4
+    2  Marzia  f           78     999      75  4
+    3  Abid    m          999      70      68  4
+    4  Sadia   f           88      91      85  4
+    5  Rafi    m           55      60      58  4
+    6  Tania   f           99      95      97  4
+    7  Kamal   m          999      74      71  4
+    8  Nadia   f           61      58      63  4
+
+                                 Missing-Sentinel Cleaned, Average and Deltas Computed
+
+  Obs    Name  Gender  Score1  Score2  Score3  Avg_score  Avg_dif1  Avg_dif2  Avg_dif3
+    1  Nahid   m           92      88       .         90         2        -2         .
+    2  Marzia  f           78       .      75         77         2         .        -2
+    3  Abid    m            .      70      68         69         .         1        -1
+    4  Sadia   f           88      91      85         88         0         3        -3
+    5  Rafi    m           55      60      58         58        -3         2         0
+    6  Tania   f           99      95      97         97         2        -2         0
+    7  Kamal   m            .      74      71         73         .         2        -2
+    8  Nadia   f           61      58      63         61         0        -3         2
+

@@ -1,0 +1,32 @@
+                                                     Graded Scores
+
+  Obs    Name  Gender  Score1  Score2  Score3  AvgScore  Grade  Level      Take
+    1  Nahid   M           92      88      95     91.67  A          4  Complete
+    2  Marzia  F           78      82      75     78.33  C          2  Complete
+    3  Abid    M           65      70      68     67.67  P          1  Complete
+    4  Sadia   F           88      91      85     88.00  B          3  Complete
+    5  Rafi    M           55      60      58     57.67  P          1  Complete
+    6  Tania   F           99      95      97     97.00  A          4  Complete
+    7  Kamal   M           72      74      71     72.33  C          2  Complete
+    8  Nadia   F           61      58      63     60.67  P          1  Complete
+
+                                                 With Gender Full Name
+
+  Obs  gender_full    Name  Gender  Score1  Score2  Score3  AvgScore  Grade  Level      Take
+    1  Male         Nahid   M           92      88      95     91.67  A          4  Complete
+    2  Female       Marzia  F           78      82      75     78.33  C          2  Complete
+    3  Male         Abid    M           65      70      68     67.67  P          1  Complete
+    4  Female       Sadia   F           88      91      85     88.00  B          3  Complete
+    5  Male         Rafi    M           55      60      58     57.67  P          1  Complete
+    6  Female       Tania   F           99      95      97     97.00  A          4  Complete
+    7  Male         Kamal   M           72      74      71     72.33  C          2  Complete
+    8  Female       Nadia   F           61      58      63     60.67  P          1  Complete
+
+                                                      Female Only
+
+  Obs    Name  Gender  Score1  Score2  Score3
+    1  Marzia  f           78      82      75
+    2  Sadia   f           88      91      85
+    3  Tania   f           99      95      97
+    4  Nadia   f           61      58      63
+

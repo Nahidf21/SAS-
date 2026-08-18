@@ -1,0 +1,30 @@
+                                                       interleave
+
+  Obs  stu_id    Name  Gender  Score1  Score2  Score3
+    1       1  Nahid   m           92      88       .
+    2       1  Nahid   m           92      88      95
+    3       2  Marzia  f           78      82       .
+    4       2  Marzia  f           78      82      75
+    5       3  Abid    m           65      70       .
+    6       3  Abid    m           65      70      68
+    7       4  Sadia   f           88      91       .
+    8       4  Sadia   f           88      91      85
+    9       5  Rafi    m           55      60      58
+   10       6  Tania   f           99      95      97
+
+                                                       Match Data
+
+  Obs  stu_id    Name  Gender  Score1  Score2  Score3
+    1       1  Nahid   m           92      88      95
+    2       2  Marzia  f           78      82      75
+    3       3  Abid    m           65      70      68
+    4       4  Sadia   f           88      91      85
+    5       5  Rafi    m           55      60      58
+    6       6  Tania   f           99      95      97
+
+                                         Match (rows only in data2, not data1)
+
+  Obs   Name  Gender  Score1  Score2
+    1  Rafi   m           55      60
+    2  Tania  f           99      95
+

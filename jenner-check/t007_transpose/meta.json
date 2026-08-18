@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_transpose",
+  "source_file": "9.2 Transpose PROCE.sas",
+  "source_blob_sha": "1222ce8f40b39d20f3068282ffac470713b8a1de",
+  "source_commit": "f70357100ea28c36b0273390aa985870e6433043",
+  "notes": "PROC TRANSPOSE wide-to-long (with BY/VAR), a renamed/filtered transpose, and a re-transpose back to wide using ID/PREFIX=. Original read score_data_id.xlsx via PROC IMPORT; replaced with a 4-row inline sample carrying stu_id/Name/Gender/Score1/Score2."
+}

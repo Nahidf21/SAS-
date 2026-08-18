@@ -1,0 +1,72 @@
+
+  Obs    Name  Gender  Math Score  Physic Score  Chamistry Score
+-----  ------  ------  ----------  ------------  ---------------
+    1  Nahid   m               92            88               95
+    2  Marzia  f               78            82               75
+    3  Abid    m               65            70               68
+    4  Sadia   f               88            91               85
+    5  Rafi    m               55            60               58
+    6  Tania   f               99            95               97
+    7  Kamal   m               72            74               71
+    8  Nadia   f               61            58               63
+
+                           Math   Physic   Chemistry
+  Obs     Name   Gender   Score    Score       Score
+
+    1  Nahid    m            92       88          95
+    2  Marzia   f            78       82          75
+    3  Abid     m            65       70          68
+    4  Sadia    f            88       91          85
+    5  Rafi     m            55       60          58
+    6  Tania    f            99       95          97
+    7  Kamal    m            72       74          71
+    8  Nadia    f            61       58          63
+
+                                                  The MEANS Procedure
+
+                                             Analysis Variable : Score1 Math Score
+
+                                                         N
+                                             Gender    Obs            Mean
+                                             -----------------------------
+                                             f           4      81.5000000
+                                             m           4      71.0000000
+                                             -----------------------------
+
+                                             Analysis Variable : Score2 Physic Score
+
+                                                         N
+                                             Gender    Obs            Mean
+                                             -----------------------------
+                                             f           4      81.5000000
+                                             m           4      73.0000000
+                                             -----------------------------
+
+                                             Analysis Variable : Score3 Chamistry Score
+
+                                                         N
+                                             Gender    Obs            Mean
+                                             -----------------------------
+                                             f           4      80.0000000
+                                             m           4      73.0000000
+                                             -----------------------------
+
+
+  Obs  Gender  Math Score  Physic Score  Chamistry Score
+-----  ------  ----------  ------------  ---------------
+    1                  75            78               73
+    2  f               83          86.5               80
+    3  m             68.5            72             69.5
+
+                                              User-Defined Formats Applied
+
+  Obs    Name  Gender  Score1  Score2  Score3
+    1  Nahid   Male         A      88      95
+    2  Marzia  Female       B      82      75
+    3  Abid    Male         C      70      68
+    4  Sadia   Female       A      91      85
+    5  Rafi    Male         D      60      58
+    6  Tania   Female       A      95      97
+    7  Kamal   Male         B      74      71
+    8  Nadia   Female       C      58      63
+

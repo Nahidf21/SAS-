@@ -1,0 +1,39 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA Score0
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote Score0 (4 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=Score0
+
+NOTE: Read 4 rows from Score0.
+NOTE: Wrote Score0 (4 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=Score0
+
+NOTE: PROC PRINT completed: 4 observations printed, 5 variables
+NOTE: PROC TRANSPOSE data=Score0
+
+NOTE: Created 8 rows.
+NOTE: Output written to /tmp/work/r_b51372528fea4d34bc984c316653bad4/work/b6429892-6481-418a-b4d5-b130823e55d7/score_trans.avro.
+NOTE: PROC PRINT data=Score_trans
+
+NOTE: PROC PRINT completed: 8 observations printed, 3 variables
+NOTE: PROC TRANSPOSE data=Score0
+
+NOTE: Created 8 rows.
+NOTE: Output written to /tmp/work/r_b51372528fea4d34bc984c316653bad4/work/b6429892-6481-418a-b4d5-b130823e55d7/score_trans.avro.
+NOTE: PROC PRINT data=Score_trans
+
+NOTE: PROC PRINT completed: 8 observations printed, 5 variables
+NOTE: PROC TRANSPOSE data=Score_trans
+
+NOTE: Created 4 rows.
+NOTE: Output written to /tmp/work/r_b51372528fea4d34bc984c316653bad4/work/b6429892-6481-418a-b4d5-b130823e55d7/score_retranspos.avro.
+NOTE: PROC PRINT data=Score_retranspos
+
+NOTE: PROC PRINT completed: 4 observations printed, 5 variables

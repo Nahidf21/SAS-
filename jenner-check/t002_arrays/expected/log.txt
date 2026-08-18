@@ -1,0 +1,40 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA Score0
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 8 rows from DATALINES.
+NOTE: Wrote Score0 (8 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA array
+
+
+NOTE: Read 8 rows from Score0.
+NOTE: Wrote array (8 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA score1
+
+
+NOTE: Read 8 rows from score0.
+NOTE: Wrote score1 (8 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA Score2
+
+
+NOTE: Read 8 rows from score1.
+NOTE: Wrote Score2 (8 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=array
+
+NOTE: PROC PRINT completed: 8 observations printed, 6 variables
+NOTE: PROC PRINT data=score2
+
+NOTE: PROC PRINT completed: 8 observations printed, 9 variables

@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_do_loop",
+  "source_file": "06 Do While Until Loop.sas",
+  "source_blob_sha": "3951e79fb7439b34a33289e688587ed793293fe2",
+  "source_commit": "f70357100ea28c36b0273390aa985870e6433043",
+  "notes": "DO loop (fixed range with OUTPUT), DO...BY, DO over a character list with SCAN, DO WHILE, DO UNTIL, and the file's own coding-exercise DO UNTIL salary-growth example. This section was already self-contained (no external data); only the unused leading PROC IMPORT was dropped."
+}
